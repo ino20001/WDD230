@@ -13,7 +13,6 @@
 }
 body {
   background-color: blanchedalmond;
-  text-align: justify;
   background-color: #ccad64;
   background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 }
@@ -71,7 +70,7 @@ ul li {
   padding: 10px;
 }
 h2 {
-  margin: 30px;
+  margin: 40px 0px 10px 0px;
 }
 hr {
   color: brown;
