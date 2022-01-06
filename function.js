@@ -1,5 +1,3 @@
-function latestDate {
-    let = Date
-
-    document.getElementById("latestDate")
-}
+window.onload = function what(){
+    document.getElementById('latestDate').innerHTML = new Date(document.lastModified);
+    };
