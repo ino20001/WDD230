@@ -1,33 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
 /*font-family: 'Luxurious Roman', cursive;*/
 /*font-family: 'The Nautigal', cursive;*/
 /*font-family: 'Shizuru', cursive;**/
 
-
-
-
 #myName {
-    display: grid;
-    grid-template-columns: 200px auto;
-    text-align: center;
-    font-size: x-large;
+  display: grid;
+  grid-template-columns: 200px auto;
+  text-align: center;
+  font-size: x-large;
 }
 body {
-    background-color: blanchedalmond;
-    text-align: justify;
-    background-color: #ccad64;
-    background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  background-color: blanchedalmond;
+  text-align: justify;
+  background-color: #ccad64;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
 }
 
-h1, h2 {
-  font-family: 'Shizuru', cursive;
-    margin: auto;
+h1,
+h2 {
+  font-family: "Shizuru", cursive;
+  margin: auto;
 }
 a {
-    text-decoration: none;
-    color: rgb(54, 133, 119);
+  text-decoration: none;
+  color: rgb(54, 133, 119);
 }
 a:hover {
   color: bisque;
@@ -38,7 +36,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 ul li {
-  font-family: 'Luxurious Roman', cursive
+  font-family: "Luxurious Roman", cursive;
 }
 .notes {
   margin-top: 0px;
@@ -46,49 +44,56 @@ ul li {
   font-family: Arial, Helvetica, sans-serif;
 }
 #content {
-    max-width: 700px;
+  max-width: 700px;
   margin: 0 auto;
 }
 header {
-    display: grid;
-    grid-template-columns: auto;
-    align-items: center;
-    background-color: seagreen;
-    padding: 30px;
-    border-radius: 30px 30px 0px 0px;
-    box-shadow: rgb(185, 143, 108) 20px 20px 20px;
-    background: rgb(34,193,195);
-    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); 
-  }
-  img {
-      width: 150px;
-      border-radius: 10px 10px 0px 0px;
-      box-shadow: 10px 10px 10px rgb(161, 160, 160);
-  }
-  ul li {
-      padding: 10px;
-
-  }
-  h2 {
-      margin: 30px;
-  }
-  hr {
-      color: brown;
-  }
-  footer {
-      display: grid;
-      grid-template-columns: auto;
-      align-items: center;
-      background-color: chocolate;
-      background: rgb(253,187,45);
-      background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(34,193,195,1) 100%); 
-      border-radius: 0px 0px 20px 20px;
-  }
-  footer p {
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-  }
-  #latestDate {
-    color: bisque;
-  }
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  background-color: seagreen;
+  padding: 30px;
+  border-radius: 30px 30px 0px 0px;
+  box-shadow: rgb(185, 143, 108) 20px 20px 20px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+img {
+  width: 150px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 10px 10px 10px rgb(161, 160, 160);
+}
+ul li {
+  padding: 10px;
+}
+h2 {
+  margin: 30px;
+}
+hr {
+  color: brown;
+}
+footer {
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  background-color: chocolate;
+  background: rgb(253, 187, 45);
+  background: linear-gradient(
+    0deg,
+    rgba(253, 187, 45, 1) 0%,
+    rgba(34, 193, 195, 1) 100%
+  );
+  border-radius: 0px 0px 20px 20px;
+}
+footer p {
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+#latestDate {
+  color: bisque;
+}
