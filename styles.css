@@ -65,4 +65,5 @@ header {
       display: grid;
       grid-template-columns: auto;
       align-items: center;
+      background-color: chocolate;
   }
