@@ -28,7 +28,7 @@ a {
   color: rgb(38, 39, 99);
 }
 a:hover {
-  color: bisque;
+  color: rgb(73, 51, 24);
   text-decoration: underline;
 }
 
