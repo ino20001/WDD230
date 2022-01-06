@@ -58,3 +58,6 @@ header {
   main h1 {
       margin: 30px;
   }
+  hr {
+      color: brown;
+  }
