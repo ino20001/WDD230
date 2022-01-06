@@ -61,3 +61,8 @@ header {
   hr {
       color: brown;
   }
+  footer {
+      display: grid;
+      grid-template-columns: auto;
+      align-items: center;
+  }
