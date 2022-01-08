@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Shizuru&display=swap");
-/*font-family: 'Luxurious Roman', cursive;*/
-/*font-family: 'The Nautigal', cursive;*/
-/*font-family: 'Shizuru', cursive;**/
-
 #myName {
   display: grid;
   grid-template-columns: 200px auto;
@@ -19,7 +12,8 @@ body {
 
 h1,
 h2 {
-  font-family: "Shizuru", cursive;
+  font-family: 'Bubblegum Sans', cursive;
+  letter-spacing: 3px;
   margin: auto;
 }
 a {
@@ -32,15 +26,15 @@ a:hover {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Unica One', cursive
 }
 ul li {
-  font-family: "Luxurious Roman", cursive;
+  font-family: 'Unica One', cursive
 }
 .notes {
   margin-top: 0px;
   color: rgb(75, 72, 72);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Unica One', cursive
 }
 #content {
   max-width: 700px;
