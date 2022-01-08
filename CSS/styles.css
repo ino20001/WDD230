@@ -1,48 +1,6 @@
-#myName {
-  display: grid;
-  grid-template-columns: 200px auto;
-  text-align: center;
-  font-size: x-large;
-}
-body {
-  background-color: blanchedalmond;
-  background-color: #ccad64;
-  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
-}
-
-h1,
-h2 {
-  font-family: 'Bubblegum Sans', cursive;
-  letter-spacing: 3px;
-  margin: auto;
-}
-a {
-  text-decoration: none;
-  color: rgb(38, 39, 99);
-}
-a:hover {
-  color: rgb(73, 51, 24);
-  text-decoration: underline;
-}
-
-p {
-  font-family: 'Unica One', cursive
-}
-ul li {
-  font-family: 'Unica One', cursive
-}
-.notes {
-  margin-top: 0px;
-  color: rgb(75, 72, 72);
-  font-family: 'Unica One', cursive
-}
-#content {
-  max-width: 700px;
-  margin: 0 auto;
-}
 header {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto 1fr;
   align-items: center;
   background-color: seagreen;
   padding: 30px;
@@ -58,7 +16,46 @@ header {
 img {
   width: 150px;
   border-radius: 10px 10px 0px 0px;
-  box-shadow: 10px 10px 10px rgba(235, 220, 220, 0.555);
+  box-shadow: 5px 5px 5px rgba(218, 214, 214, 0.555);
+  margin: auto;
+}
+body {
+  background-color: blanchedalmond;
+}
+h1 {
+  font-family: 'Bubblegum Sans', cursive;
+  letter-spacing: 3px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: x-large;
+}
+h2 {
+  font-family: 'Bubblegum Sans', cursive;
+  letter-spacing: 3px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(38, 39, 99);
+}
+a:hover {
+  color: rgb(73, 51, 24);
+  text-decoration: underline;
+}
+p {
+  font-family: 'Unica One', cursive
+}
+ul li {
+  font-family: 'Unica One', cursive
+}
+.notes {
+  margin-top: 0px;
+  color: rgb(75, 72, 72);
+  font-family: 'Unica One', cursive
+}
+#content, main, footer {
+  max-width: 700px;
+  margin: 0 auto;
 }
 ul li {
   padding: 10px;
@@ -89,4 +86,20 @@ footer p {
 }
 #latestDate {
   color: bisque;
+  font-style: oblique;
+  padding-top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+
+  #content {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+}
+
+header {
+    grid-template-columns: auto;
+    justify-items: center;
+    text-align: center;
+}
 }
