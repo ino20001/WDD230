@@ -1,10 +1,10 @@
-var d = new Date(document.lastModified);
-var m = d.getMonth() + 1;
-var date = d.getDate();
-var y = d.getFullYear();
-var h = d.getHours();
-var min = d.getMinutes();
-var s = d.getSeconds();
+let d = new Date(document.lastModified);
+let m = d.getMonth() + 1;
+let date = d.getDate();
+let y = d.getFullYear();
+let h = d.getHours();
+let min = d.getMinutes();
+let s = d.getSeconds();
 window.onload = function what(){
     document.getElementById('latestDate').innerHTML = `Last Update: ${m}/${date}/${y} ${h}:${min}:${s}`;
     };
