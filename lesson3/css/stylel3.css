@@ -24,7 +24,7 @@ h1 {
     letter-spacing: 3px;
     color: antiquewhite;
   }
-h2, h4 {
+h2, h3 {
     font-family: 'Bubblegum Sans', cursive;
     letter-spacing: 2px;
 }
@@ -58,25 +58,51 @@ body {
     font-style: oblique;
     padding-top: 0px;
   }
-p a {
-      text-decoration: none;
+ul li {
+      list-style-type: none;
       padding-bottom: 10px;
       font-style: oblique;
-      font-family: 'Unica One', cursive;
-      color: rgb(72, 155, 17);
       text-align: center;
       font-size: small;
   }
-  a:hover {
-    color: rgb(253, 187, 45);
-    text-decoration: underline;
+  a {
+    text-decoration: none;
+    font-family: 'Bubblegum Sans', cursive;
     font-size: medium;
+    transition: 300ms;
+    text-transform: uppercase;
   }
+  a:hover {
+    color: rgb(107, 73, 0);
+    font-size: large;
+    background-color: burlywood;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 300ms ease-in-out;
+  }
+  nav {
+    background-color:rgba(34, 193, 195, 1);
+  }
+  nav li {
+    padding: 10px;
+  }
+  ul{
+    padding-inline: 0px;
+  }
+  
 
 
 
   /*medium screens**********************/
  @media screen and (min-width: 32.5em) {
+   ul {
+     display: flex;
+     justify-content: space-around;
+
+   }
+   li {
+     text-align: center;
+   }
 
  }
 
