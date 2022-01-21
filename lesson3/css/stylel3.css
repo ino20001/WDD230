@@ -31,7 +31,7 @@ h2, h3 {
 body {
     background-color: blanchedalmond;
   }
-  p {
+  p, h4 {
     font-family: 'Baloo 2', cursive;
   }
   footer {
@@ -71,6 +71,7 @@ ul li {
     font-size: medium;
     transition: 300ms;
     text-transform: uppercase;
+    color: bisque;
   }
   a:hover {
     color: rgb(107, 73, 0);
@@ -89,7 +90,6 @@ ul li {
   ul{
     padding-inline: 0px;
   }
-  
 
 
 
@@ -103,6 +103,11 @@ ul li {
    li {
      text-align: center;
    }
+   nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+   };
 
  }
 

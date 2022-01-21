@@ -8,3 +8,5 @@ let s = d.getSeconds();
 window.onload = function what(){
     document.getElementById('latestDate').innerHTML = `Last Update: ${m}/${date}/${y} ${h}:${min}:${s}`;
     };
+
+

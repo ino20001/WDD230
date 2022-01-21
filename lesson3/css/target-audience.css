@@ -1,0 +1,23 @@
+@media screen and (min-width: 32.5em){
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px 0px;
+}
+}
+div {
+    margin: auto;
+    padding: 20px;
+}
+.personas {
+    text-align: center;
+    padding: 10px 0px;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+#target {
+    color: rgb(107, 73, 0);
+}
