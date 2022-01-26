@@ -12,6 +12,9 @@ header {
 .star {
     font-size: 5rem;
 }
+#today {
+    font-family: "courier";
+}
 h1 {
     text-indent: 2px;
 }
