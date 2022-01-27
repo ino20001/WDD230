@@ -30,10 +30,13 @@ section {
     background-color: #7eaba4;
     margin: 10px 0px;
 }
+.spotlight {
+    padding: 5px;
+}
 article {
-    padding: 100px;
+    padding: 80px;
     border: 1px solid black;
-    margin: 20px;
+    margin: 10px;
 
 }
 footer {
