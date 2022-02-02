@@ -3,26 +3,26 @@ body {
 }
 nav {
     background-color: #343635;
-    width: 100%;
 }
 header {
     background-color: #343635;
-    padding-top: 10px;
+    padding: 10px 0px;
     text-align: center;
 }
 .star {
-    font-size: 4rem;
+    font-size: 3rem;
 }
 #today {
     font-family: "open sans";
     text-align: center;
-    margin: 10px;
     font-weight: bold;
-    background-color: #7eaba481;
+    background-color: #7eaba4be;
     padding: 10px;
+    margin: 10px;
 }
 h1 {
     color: #f4eade;
+    text-shadow: 10px 10px 10px black;
 }
 footer h3 {
     font-size: 2rem;
@@ -32,20 +32,24 @@ h1, h2, h3 {
 }
 p {
     font-family: "open sans";
+    font-weight: bold;
+    color: #f4eade;
 }
 section {
-    padding: 100px;
-    border: 1px solid black;
-    background-color: #7eaba4;
-    margin: 10px;
+    background-color: #2d4873;
+    margin: 15px;
+    box-shadow: 1px 1px 10px 1px #343635;
+    padding: 20px;
+    text-align: center;
 }
 .spotlight {
     padding: 5px;
 }
 article {
-    padding: 80px;
-    border: 1px solid black;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 1px #7eaba4;
     margin: 10px;
+    text-align: center;
 
 }
 footer {
@@ -66,10 +70,10 @@ footer a:hover {
 }
 .socials {
     width: 10%;
-    margin: 10px;
+    margin: 0px 10px;
 }
 .logo {
-    width: 150px;
+    width: 100px;
     margin: 20px;
 }
 #linklist li {
@@ -85,10 +89,10 @@ nav ul.open{
     display: block;
 }
 #hambttn {
-    margin: auto;
-    padding: 5px;
+    padding: 10px 15px;
     cursor: pointer; 
     display: table;
+    transition: 200ms;
 }
 .bar1, .bar2, .bar3 {
     background-color: #7eaba4;
@@ -97,9 +101,13 @@ nav ul.open{
     transition: 0.5s;
     margin: 7px 0;
 }
+#hambttn:hover { 
+    background-color: #f4eade;
+}
 .rotate-icon .bar1 {
     -webkit-transform: rotate(-45deg) translate(-8px, 6px);
     transform: rotate(-45deg) translate(-8px, 6px);
+    background-color: red;
 }
 .rotate-icon .bar2 {
     opacity: 0;
@@ -107,6 +115,10 @@ nav ul.open{
 .rotate-icon .bar3 {
     -webkit-transform: rotate(42deg) translate(-9px, -8px);
     transform: rotate(42deg) translate(-9px, -8px);
+    background-color: red;
+}
+.rotate-icon {
+    border: none!important;
 }
 nav #linklist li a {
     display: block;
@@ -116,7 +128,7 @@ nav #linklist li a {
     transition: 700ms;
 }
 nav #linklist li a:hover {
-    background-color: #7eaba4;
+    background-color: #f4eade;
     color: #343635;
     transition: 500ms;
     font-weight: bolder;
@@ -125,8 +137,94 @@ nav #linklist li a:hover {
     font-weight: bolder;
     background-color: #7eaba481;
     color: #343635;
-
 }
+.head {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.power-menu {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.img-call {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.learn-more {
+    background-color: #337c83;
+    border: none;
+    padding: 10px;
+    font-family: "open sans";
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.learn-more:hover {
+    background-color: #f4eade;
+    transition: 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    padding: 15px;
+    color: #343635;
+    font-size: large;
+}.join-us {
+    width: 100%;
+    background-color: #337c83;
+    border: none;
+    padding: 10px;
+    font-family: "open sans";
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.join-us:hover {
+    background-color: #f4eade;
+    transition: 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    padding: 15px;
+    color: #343635;
+    font-size: large;
+}
+.call {
+    padding: 0px;
+}
+.join-us-call {
+    background-color: #337c83;
+    border: none;
+    padding: 10px;
+    font-family: "open sans";
+    font-weight: bolder;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms;
+    margin-bottom: 20px;
+}
+.welcome {
+ color: #f4eade;
+}
+nav #linklist {
+    position: absolute;
+    z-index: 1000;
+    background-color: #343635;
+}
+nav #linklist li a {
+    padding: 20px 100px;
+}
+.call-effect {
+    background-color: #34363593;
+    position:absolute;
+    bottom: 220px;
+    width: 70%;
+}
+.join-us-call:hover {
+    background-color: #f4eade;
+    transition: 200ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    padding: 15px;
+    color: #343635;
+    font-size: large;
+}
+
 
 
 
@@ -142,21 +240,37 @@ nav #linklist li a:hover {
     }
     section:nth-last-of-type(3) {
         display: flex;
-        justify-content: space-evenly;
     }
+    .call-effect {
+        bottom: 200px;
+    }
+    .welcome {
+        color: #f4eade;
+        font-size: xx-large;
+       }
     .front {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .head{
+    .head {
         display: flex;
-        justify-content: left;
         align-items: center;
-        text-align: left;
     }
-
+    nav {
+        order: -1;
+    }
+    nav #linklist {
+        position: absolute;
+        background-color: #343635;
+    }
+    nav #linklist li a {
+       padding: 20px 100px;
+    }
 }
+    
+
+
 
 /* large view********/
 @media only screen and (min-width:64rem) {
@@ -179,11 +293,11 @@ nav #linklist li a:hover {
         grid-column: 2/4;
         grid-row: 1/3;
     }
-    .news {
+    .weather {
         grid-column: 1/2;
         grid-row: 1/2;
     }
-    .weather {
+    .events {
         grid-column: 1/2;
         grid-row: 2/3;
     }
@@ -192,7 +306,7 @@ nav #linklist li a:hover {
         grid-row: 1/3;
         flex-direction: column;
     }
-    .events {
+    .news {
         grid-column: 1/4;
         grid-row: 3/4;
     }
@@ -209,6 +323,33 @@ nav #linklist li a:hover {
     }
     nav #linklist li a {
         border: none;
+    }
+    .call-effect {
+        bottom: 50px;
+        width: 40%;
+    }
+    section {
+        margin: 10px;
+    }
+    .front {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    nav {
+        order: 0;
+    }
+    .social-links {
+        order: 1;
+    }
+    .head{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        text-align: left;
+    }
+    nav #linklist {
+        position: static!important;
     }
 }
 
