@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="java.js"></script>
+    <script defer src="java.js"></script>
     <title>DOM | Book of Mormon Activity</title>
 </head>
 <body>
@@ -16,10 +16,10 @@
         <div class="input">
             <label>Enter Book and Chapter<br>
                 <input type="text" id="favchap" placeholder="Alma 5" required></label>
-            <button type="submit" onclick="input.focus()"">Add Chapter</button>
+            <button type="submit">Add Chapter</button>
         </div>
         <div class="listcontainer">
-            <ul class="list">
+            <ul id="list">
             </ul>
         </div>
     </main>

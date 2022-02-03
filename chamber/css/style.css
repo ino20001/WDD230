@@ -9,6 +9,12 @@ header {
     padding: 10px 0px;
     text-align: center;
 }
+.front {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
 .star {
     font-size: 3rem;
 }
@@ -35,11 +41,15 @@ p {
     font-weight: bold;
     color: #f4eade;
 }
-section {
+ .events, .news, .spotlight, .weather, .join {
     background-color: #2d4873;
     margin: 15px;
     box-shadow: 1px 1px 10px 1px #343635;
     padding: 20px;
+    text-align: center;
+}
+.call {
+    margin: 15px;
     text-align: center;
 }
 .spotlight {
@@ -50,6 +60,7 @@ article {
     box-shadow: 1px 1px 10px 1px #7eaba4;
     margin: 10px;
     text-align: center;
+    background-color: #7eaba4;
 
 }
 footer {
@@ -69,12 +80,19 @@ footer a:hover {
     color: #7eaba4;
 }
 .socials {
-    width: 10%;
-    margin: 0px 10px;
+    width: 20%;
+    margin: 10px;
+}
+nav {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.social-links {
+    grid-column: 2/-1;
 }
 .logo {
     width: 100px;
-    margin: 20px;
+    margin: 10px;
 }
 #linklist li {
     list-style: none;
@@ -122,10 +140,10 @@ nav ul.open{
 }
 nav #linklist li a {
     display: block;
-    padding: .8rem 2vw;
     text-decoration: none;
     color: #f4eade;
     transition: 700ms;
+    padding: 20px 100px;
 }
 nav #linklist li a:hover {
     background-color: #f4eade;
@@ -142,6 +160,8 @@ nav #linklist li a:hover {
     display: flex;
     align-items: center;
     text-align: left;
+    grid-column: 1/-1;
+    justify-content: center;
 }
 .power-menu {
     display: flex;
@@ -186,9 +206,6 @@ nav #linklist li a:hover {
     color: #343635;
     font-size: large;
 }
-.call {
-    padding: 0px;
-}
 .join-us-call {
     background-color: #337c83;
     border: none;
@@ -207,9 +224,7 @@ nav #linklist {
     position: absolute;
     z-index: 1000;
     background-color: #343635;
-}
-nav #linklist li a {
-    padding: 20px 100px;
+
 }
 .call-effect {
     background-color: #34363593;
@@ -223,6 +238,10 @@ nav #linklist li a {
     padding: 15px;
     color: #343635;
     font-size: large;
+}
+.event-icon, .join-icon, .network-icon, .hub-icon, .news-icon {
+    font-size: 5em;
+    margin: 0px;
 }
 
 
