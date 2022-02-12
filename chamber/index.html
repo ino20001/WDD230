@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/windchill.js"></script>
     <title>Home | Star Chamber of Commerce</title>
 </head>
 <body>
@@ -44,7 +45,11 @@
     </header>
     <main>
         <section class="call">
-            <img class="img-call" src="images/leon-Oalh2MojUuk-unsplash.jpg" alt="Photo-by-Leon-Of-Unplash">
+            <picture>
+                <source media="(min-width: 35rem)" srcset="images/wdd230-org-medium.webp">
+                <source media="(min-width: 64rem)" srcset="images/wdd230-org-large">
+                <img class="img-call" src="images/wdd230-org -small.webp" alt="Photo-by-Leon-Of-Unplash">
+            </picture>
             <div class="call-effect">
             <h2 class="welcome">Welcome to Star Chamber</h2>
             <button class="join-us-call">Join Us!</button>
@@ -85,7 +90,7 @@
     
             <hr>
             <p><b>Wind Speed:</b> 2.5km/h</p>
-            <p><b>Wind Chill:</b> NA</p>
+            <p><b>Wind Chill:</b> <span id="speed"></span> NA</p>
         </section>
         <section class="join">
             <button class="join-us">Join Us!</button>
