@@ -1,36 +1,4 @@
-/*const images = document.querySelectorAll(".lazy-image");
 
-function preloadImage(img) {
-    const src = img.getAttribute("data-src");
-
-    if (!src) {
-        return
-    }
-
-    img.src = src;
-}
-
-const imgOptions = {
-    threshold: 0,
-    rootMargin: '0px 0px 50px 0px',
-};
-
-const imgObserver = new IntersectionObserver( (entries, imgObserver) => {
-    entries.forEach(entry => {
-        if (!entry.isIntersecting) {
-            return;
-        } else {
-            preloadImage(entry.target);
-            imgObserver.unobserve(entry.target);
-        
-        }
-    })
-
-}, imgOptions) 
-
-images.forEach( image => {
-    imgObserver.observe(image);
-})*/
 const images = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
@@ -38,7 +6,7 @@ const loadImages = (image) => {
     image.onload = () => {
     image.removeAttribute('data-src');
     image.style.filter = 'blur(0em)';
-    image.style.transition = 'filter 0.1s';
+    image.style.transition = 'filter 0.5s';
     };
   };
 
