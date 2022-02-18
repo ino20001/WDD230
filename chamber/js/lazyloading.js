@@ -1,4 +1,3 @@
-
 const images = document.querySelectorAll('img[data-src]');
 
 const loadImages = (image) => {
@@ -6,7 +5,7 @@ const loadImages = (image) => {
     image.onload = () => {
     image.removeAttribute('data-src');
     image.style.filter = 'blur(0em)';
-    image.style.transition = 'filter 3s';
+    image.style.transition = 'filter 0.5s';
     };
   };
 

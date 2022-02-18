@@ -1,0 +1,48 @@
+main {
+    margin-right: 40px;
+}
+.side-l {
+    border-radius: 50% 10%;
+    margin: 20px;
+    transition: 1000ms;
+    width: 100%; 
+    border: 3px solid #343635;
+}
+
+.side-r {
+    border-radius: 10% 50%;
+    margin: 20px;
+    transition: 1000ms;
+    width: 100%;
+    border: 3px solid #343635;
+}
+main p {
+    color: #343635;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* medium view */
+@media only screen and (min-width:34rem) {
+    picture img:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 1000ms;
+    }
+}
+/* large view */
+@media only screen and (min-width:64rem) {
+    .photos picture img:hover {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 1000ms;
+    }
+    main {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+    }
+     main picture img {
+        width: 500px;
+    }
+
+}
