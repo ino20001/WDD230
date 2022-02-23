@@ -1,0 +1,28 @@
+
+main {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #2d4873;
+    border-radius: 10px;
+}
+.checked {
+    font-size: 5em;
+}
+main p a {
+    color: wheat;
+}
+main p a:hover {
+    color: #7eaba4;
+}
+main h1 {
+    background-color: #7eaba4;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media only screen and (min-width:64rem) {
+    #main1 {
+        grid-column:1/-1;
+        grid-row: 1/-1;
+    }
+}

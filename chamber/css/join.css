@@ -32,25 +32,29 @@ form input:required {
 form input:required:valid {
     border-left: 5px solid green;
 }
-input {
-    padding: 15px 80px 15px 15px;
-    border-radius: 5px;
-
-}
 form fieldset input {
     margin-bottom:15px;
 }
 main {
-    margin: 50px;
+    margin: 10px;
 }
 form {
     background-color: #2d4873;
     border-radius: 5px;
     padding: 30px;
 }
-@media only screen and (min-width:64rem) {
+input {
+    padding: 15px 0 15px 15px;
+    border-radius: 5px;
+}
+@media only screen and (min-width:32rem) {
     form {
         grid-column:1/-1;
         grid-row: 1/-1;
+    }
+    input {
+        padding: 15px 80px 15px 15px;
+        border-radius: 5px;
+    
     }
 }
