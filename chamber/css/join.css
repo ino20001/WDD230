@@ -43,7 +43,7 @@ form {
     border-radius: 5px;
     padding: 30px;
 }
-input {
+input, textarea {
     padding: 15px 0 15px 15px;
     border-radius: 5px;
 }
@@ -52,7 +52,7 @@ input {
         grid-column:1/-1;
         grid-row: 1/-1;
     }
-    input {
+    input, textarea {
         padding: 15px 80px 15px 15px;
         border-radius: 5px;
     

@@ -63,17 +63,18 @@
                 </label><br>
                 <label>Contact number*<br />
                 <input name="contact" type="tel"  required/></label><br>
-                <label>Business name:<br />
-                <input name="businessname" type="text"/></label><br>
+                <label>Business name and details:<br />
+                <textarea name="businessname" type="text" rows="4"></textarea></label><br>
             </fieldset>
             <fieldset>
                 <legend><strong>Membership level</strong></legend>
-                    <label><input checked="checked" name="level" type="radio" value="Gold" /> Gold </label><br> 
-                    <label><input name="level" type="radio" value="Silver" /> Silver </label><br>
-                    <label><input name="level" type="radio" value="Bronze" /> Bronze</label>
+                    <label><input checked="checked" name="level" type="radio" value="Gold" /> <b>Non-profit Membership</b> <i>(for non profit organizations and there is no fee.)</i>  </label><br> 
+                    <label><input name="level" type="radio" value="Silver" /> <b> Gold</b> </label><br>
+                    <label><input name="level" type="radio" value="Silver" /> <b> Silver</b> </label><br>
+                    <label><input name="level" type="radio" value="Bronze" /> <b> Bronze</b></label>
             </fieldset>
             <fieldset>
-                <label><input class="checkbox" name="checkbox" type="checkbox" value="yes" required /> I confirm that the information above is true.</label><br /> 
+                <label><input class="checkbox" name="checkbox" type="checkbox" value="yes" required /> *I confirm that the information above is true.*</label><br /> 
             </fieldset>
             <button type="submit" value="Submit" class="submitBtn">Process My Form</button>
         </form>
