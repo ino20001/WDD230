@@ -1,0 +1,100 @@
+{
+    "directory": [
+      {
+        "companyname": "Philippines Business Bank",
+        "address": "Units 3 & 4, Megathon Bldg., Circumferential Road, Brgy. San Roque, Antipolo City",
+        "Tel": "(02) 6549-8624",
+        "link": "https://www.pbb.com.ph/",
+        "order": 1,
+        "imageurl": "https://udaipurkiran.com/wp-content/uploads/2019/11/Philippines-Business-Bank.jpg"
+      },
+      {
+        "companyname": "Goodwill Advocacy Philippines Cooperative",
+        "address": "Soliven St. cor Felix Ave., Cainta, Rizal",
+        "Tel": "(02) 3649-8624",
+        "link": "https://www.gapc.com.ph/",
+        "order": 2,
+        "imageurl": "https://www.businesslist.ph/img/ph/g/1423636187-16-goodwill-advocacy-philippines-cooperative.jpg"
+      },
+      {
+        "companyname": "Alleba Search the Philippines",
+        "address": "Paco Roman Street, Cabanatuan City, Nueva Ecija",
+        "Tel": "(02) 7539-8624",
+        "link": "https://www.alleba.com.ph/",
+        "order": 3,
+        "imageurl": "https://th.bing.com/th/id/R.3d759276048f7609b9741f0d153cf35f?rik=yuHk2Qz0tOKv%2bA&riu=http%3a%2f%2fcdn.designcrowd.com.s3.amazonaws.com%2fblog%2fOct2012%2fPh-Brands%2f22-50-foreign-brands-logos.png&ehk=7F%2fpBcrBUBtL47nL0BXMjci4V7ws%2b3X8F9n7gfodJTo%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "companyname": "CIRTEK Holding Philippines Corporations",
+        "address": "G'Floor Carmencita Bldg., Paseo del Congreso, Catmon, Malolos City, Bulacan",
+        "Tel": "(02) 1568-8624",
+        "link": "https://www.cirtek.com.ph/",
+        "order": 4,
+        "imageurl": "https://business.inquirer.net/files/2017/11/Cirtek-Logo-1-1024x706.jpeg"
+      },
+      {
+        "companyname": "Legacy Group of Companies",
+        "address": "G/F AMCO Building M. L. Quezon National Road Pajo, Lapu-Lapu City, Cebu",
+        "Tel": "(02) 8523-8624",
+        "link": "https://www.legacygop.com.ph/",
+        "order": 5,
+        "imageurl": "https://th.bing.com/th/id/R.87ca17ea392454c29c166f469f9eef0b?rik=ZXSfovtCaHAQMw&riu=http%3a%2f%2fpromisedelivered.com%2fcore%2fimages%2fassets%2fheader%2flogo.jpg&ehk=ggpjr8YjuD6KSqeDrAI3E%2b%2bTzGD%2fDCE4d6qBsPrTXss%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "companyname": "P.P. Constructions and Investments",
+        "address": "G/F Philam Life Bacolod Bldg., Lacson St., cor. Galo St., Bacolod City",
+        "Tel": "(02) 6587-9665",
+        "link": "https://www.ppconstru.com.ph/",
+        "order": 6,
+        "imageurl": "https://telviewtechnology.com/wp-content/uploads/2016/01/PT.-PP-Construction-Investment.jpg"
+      },
+      {
+        "companyname": "Blucognition Data Insights Analytics",
+        "address": "Aguinaldo Highway, Tanzang Luma, Imus Cavite",
+        "Tel": "(02) 6324-8624",
+        "link": "https://www.blucognition.com.ph/",
+        "order": 7,
+        "imageurl": "https://th.bing.com/th/id/OIP.RrUJAX0lJ4NIxTX15XBYBAAAAA?pid=ImgDet&rs=1"
+      },
+      {
+        "companyname": "Payment Processing Incorported",
+        "address": "# 25 Quezon Street, Ilo-ilo City",
+        "Tel": "(02) 4399-8624",
+        "link": "https://www.paymentprocessingincor.com.ph/",
+        "order": 8,
+        "imageurl": "https://th.bing.com/th/id/R.fbd5a0f0458fb1c1b9f51e307bc62d7c?rik=VHAGVAasZNR6Jw&riu=http%3a%2f%2fwww.arbelsoft.com%2fcompanyimage%2fPPI-logo.jpg&ehk=s0bS%2bN0UMmTrAR3lIkYhQs7zoEbfp9MhRhCDWIs9Epo%3d&risl=&pid=ImgRaw&r=0"
+      },
+      {
+        "companyname": "Himalaya Industry",
+        "address": "Units 3 & 4, Megathon Bldg., Circumferential Road, Brgy. San Roque, Antipolo City",
+        "Tel": "(02) 1654-8624",
+        "link": "https://www.himalaya.com.ph/",
+        "order": 9,
+        "imageurl": "https://th.bing.com/th/id/OIP.8sKlXbf-Zcq1yZX9py0gyQHaEc?pid=ImgDet&w=190&h=114&rs=1"
+      },
+      {
+        "companyname": "Caravel",
+        "address": "McArthur Square, Lot 5 Block 6, McArthur Highway, Angeles City, Pampanga",
+        "Tel": "(02) 7954-8624",
+        "link": "https://www.caravel.com.ph/",
+        "order": 10,
+        "imageurl": "https://www.ishipnet.com/images/comprofiler/899_5ddfee9bee3d5.png"
+      },
+      {
+        "companyname": "Keychron Philippines",
+        "address": "Smith",
+        "Tel": "(02) 5698-8624",
+        "link": "https://www.pbb.com.ph/",
+        "order": 11,
+        "imageurl": "https://th.bing.com/th/id/OIP.4UKLpxvTUUI8IOPoHq_F7AHaHa?pid=ImgDet&rs=1"
+      },
+      {
+        "companyname": "Versona",
+        "address": "Smith",
+        "Tel": "(02) 4569-8624",
+        "link": "https://www.pbb.com.ph/",
+        "order": 12,
+        "imageurl": "https://www.shopbriercreekcommons.com/application/files/8916/1297/4907/versona_square.jpg"
+      }
+    ]
+  }

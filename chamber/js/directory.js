@@ -1,11 +1,11 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector(".cards");
+const requestURL = '';
+const directlist = document.querySelector(".directList");
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    const prophets = jsonObject['prophets'];
+    const prophets = jsonObject['directory'];
     prophets.forEach(displayProphets);
   });
 
