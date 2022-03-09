@@ -11,6 +11,7 @@
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/windchill.js"></script>
+    <script defer src="js/weather.js"></script>
     <title>Home | Star Chamber of Commerce</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
             <ul id="linklist">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="#">Directory</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -83,15 +84,18 @@
         <section class="weather">
             <h2>Weather</h2>
             <div class="degrees">
-            <div class="weather-icon">&#127780;</div>
-            <p class="degree">32°c</p>
+            <figure>  
+            <img src="" alt="" class="weather-icon" ><!--&#127780;--></figure> 
+            <span><p class="degree"><p>&deg;C</p></p></span>
             </div>
-            <h4>Partly Cloudy</h4>
+            <h4 class="icon-scr"></h4>
     
             <hr>
-            <p><b>Wind Speed:</b> 2.5km/h</p>
-            <p><b>Wind Chill:</b> <span id="speed"></span> NA</p>
+            <p><b>Wind Speed:</b> <span class="windspeed"></span> m/s</p>
+            <p><b>Wind Chill:</b> <span id="speed"></span> N/A</p>
+            <img class="open-weather-logo" src="https://th.bing.com/th/id/R.02909d1058eb4ac2ea6789d3231e94ca?rik=tnqsAFfY81ng3A&riu=http%3a%2f%2fwww.esolve.co.za%2fimages%2fassets%2flogo_OpenWeatherMap_orange_website.png&ehk=ut7NW%2buDqHbkHcB%2fmZXquqWSXlYGnARE16b5xz%2fgR8U%3d&risl=&pid=ImgRaw&r=0" alt="open-weather-logo">
         </section>
+        <div id="openweathermap-widget-5"></div>
         <section class="join">
             <button class="join-us">Join Us!</button>
             <p class="join-icon">&#11088;</p>

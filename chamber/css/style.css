@@ -26,6 +26,10 @@ header {
     padding: 10px;
     margin: 10px;
 }
+body > main > section.weather > div > span {
+    display: flex;
+    align-items: center;
+}
 h1 {
     color: #f4eade;
     text-shadow: 10px 10px 10px black;
@@ -245,7 +249,7 @@ nav #linklist {
     margin: 0px;
 }
 .weather-icon {
-    font-size: 100px;
+    width: 100px;
     text-align: center;
 }
 .degrees {
@@ -267,15 +271,32 @@ h4 {
     font-size: 2em;
     margin: 0px;
 }
+body > main > section.weather > div > span > p:nth-child(2) {
+    font-size: 2em;
+    font-family: 'Alegreya';
+
+}
+#openweathermap-widget-5 {
+    display: flex;
+    justify-content: center;
+}
+.open-weather-logo {
+    width: 10em;
+}
 
 
-
-
+@media only screen and (max-width:560px) {
+    .weather {
+        display: none;
+    }
+}
 
 
 /*meduim screen size*/
 @media only screen and (min-width:35rem) {
-    
+    #openweathermap-widget-5 {
+        display: none;
+    }
     #logo {
         width: 2%;
     }

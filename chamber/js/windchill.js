@@ -1,4 +1,4 @@
-const windspeed = parseFloat(document.querySelector("#speed").innerHTML)
+/*const windspeed = parseFloat(document.querySelector("#speed").innerHTML)
 
 
 
@@ -8,4 +8,4 @@ if(temp <= 50 && windspeed > 3){
     document.querySelector("#windchill").innerHTML = `${windchill}&#176;F`;
 } else{
     "N/A"
-}
+}*/
