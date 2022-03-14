@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/logo.png" type="img/png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/thankyou.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
-    <title>Thanks! | Star Chamber of Commerce</title>
+    <title>Contact Us! | Star Chamber of Commerce</title>
 </head>
 <body>
     <header>
@@ -35,8 +35,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
                 <li><a href="directory.html">Directory</a></li>
-                <li class="active"><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
         </div>
@@ -45,11 +45,39 @@
     </header>
     <main>
         <div id="main1">
-        <div class="checked">&#9989;</div>
-        <h1>THANK YOU for joining Star chamber and commerce!</h1>
-        <p>we will send you an email after we process your application</p>
-        <p><a href="index.html">Return to home page</a></p>
+        <h1>Contact Us!</h1>
+        <p> <b>Star Chamber of Commerce</b><br> 256 Southern Samar, Sinampalukan St, Ginisang Tokwa, Philippines (0143)</p>
+        <p>+(23) 0621-1998</p>
     </div>
+    <div>
+        <h2>General Inquiries</h2>
+        <img src="../lesson3/images/Bruno.jpg" alt="mr-john-doe" class="mr-john">
+        <p>If you have visited the Chamber, you know Mr. John Doe.</p>
+        <p>John Doe and team are always happy to answer general inquiries or route you to the right person to address your questions! Give us a call or fill out the form below.</p>
+        <p>+(23) 0621-1998</p>
+    </div>
+    <form action="contactDone.html" autocomplete="off" method="GET">
+        <h3>Get in Touch</h3>
+        <hr>
+        <fieldset>
+            <legend><strong>Basic information</strong></legend>
+            <label>First Name <Span class="red-impo">*</Span><br /> 
+            <input name="ftname" type="text"  required /></label><br>
+            <label>Last Name<Span class="red-impo">*<br />
+            <input name="lname" type="text"  required/></label><br>
+            <label>Email:<br />
+            <input name="email" type="text" /></label><br>
+            <label>Company Name:<br />
+            <input name="companyname" type="text" /></label><br>
+            <p></p>Are you a Chamber Member?</p>
+                    <label><input name="level" type="radio" value="Yes" /> <b> Yes</b> </label><br>
+                    <label><input name="level" type="radio" value="No" /> <b> No</b> </label><br>
+                    <label><input name="level" type="radio" value="Not Sure" /> <b> Not Sure</b></label><br>
+                    <label><p>What questions do you have for the Star Chamber?<Span class="red-impo">*</p><br />
+                        <textarea name="businessname" type="text" rows="4" required></textarea></label><br>
+        </fieldset>
+        <button type="submit" value="Submit" class="submitBtn">Submit my form</button>
+    </form>
     </main>
     <footer>
         <div class="front">
