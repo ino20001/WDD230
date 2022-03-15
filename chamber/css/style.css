@@ -101,12 +101,15 @@ nav {
     font-family: "open sans";
 }
 nav ul {
-    display: none;
+    transform: translateX(-150%);
     padding: 0px;
     margin: 0px;
+    transition: all .5s ease-out;
 }
 nav ul.open{
     display: block;
+    transform: translateX(-20%);
+    transition: all .5s ease-out;
 }
 #hambttn {
     padding: 10px 15px;
@@ -116,10 +119,11 @@ nav ul.open{
 }
 .bar1, .bar2, .bar3 {
     background-color: #7eaba4;
-    width: 40px;
+    width: 30px;
     height: 4px;
     transition: 0.5s;
     margin: 7px 0;
+    border-radius: 50px;
 }
 #hambttn:hover { 
     background-color: #f4eade;
@@ -227,9 +231,11 @@ nav #linklist li a:hover {
 nav #linklist {
     position: absolute;
     z-index: 1000;
+    height: auto;
     background-color: #343635;
     border-radius: 5px;
-
+    transition: all .5s ease-out;
+    
 }
 .call-effect {
     background-color: #34363593;
@@ -421,7 +427,9 @@ body > main > section.weather > div > span > p:nth-child(2) {
         text-align: left;
     }
     nav #linklist {
-        position: static!important;
+        transform: translate(0);
+        height: auto;
+        position: static;
     }
 }
 
