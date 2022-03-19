@@ -240,7 +240,7 @@ nav #linklist {
 .call-effect {
     background-color: #34363593;
     position:absolute;
-    bottom: 220px;
+    top: 350px;
     width: 70%;
 }
 .join-us-call:hover {
@@ -317,7 +317,7 @@ body > main > section.weather > div > span > p:nth-child(2) {
     }
     .welcome {
         color: #f4eade;
-        font-size: xx-large;
+        font-size: 3em;
        }
     .front {
         display: flex;
