@@ -7,6 +7,7 @@ font-family: 'Roboto Slab', serif;*/
 * {
     margin: 0px;
     padding: 0px;
+    transition: 200ms ease-in-out;
 }
 
 /***Header Style***/
@@ -25,6 +26,8 @@ h5 {
 header {
     background-color: #76799a;
 }
+
+
 /** hambttn **/
 #hambttn {
     padding: 10px 15px;
@@ -34,7 +37,7 @@ header {
     
 }
 .bar1, .bar2, .bar3 {
-    background-color: #dafaa5;
+    background-color: white;
     width: 30px;
     height: 4px;
     transition: 0.5s;
@@ -47,7 +50,7 @@ header {
 .rotate-icon .bar1 {
     -webkit-transform: rotate(-45deg) translate(-8px, 6px);
     transform: rotate(-45deg) translate(-8px, 6px);
-    background-color: #574525;
+    background-color: black;
 }
 .rotate-icon .bar2 {
     opacity: 0;
@@ -55,51 +58,55 @@ header {
 .rotate-icon .bar3 {
     -webkit-transform: rotate(42deg) translate(-9px, -8px);
     transform: rotate(42deg) translate(-9px, -8px);
-    background-color: #574525;
+    background-color: black;
 }
 .rotate-icon {
     border: none!important;
 }
+
+
 /** logo **/
 .logo, .logo-footer {
     width: 20%;
     margin-top: 15px;
 }
+
+
 /** linklist **/
 #linklist {
-    margin: 20px;
-    transition: 1s ease-in-out;
     background-color: #76799a;
     list-style: none;
-    border-radius: 10px;
     /*transform: translateY(-150%);*/
     display: none;
     
-    
 }
 #linklist.open {
-    transition: 1s ease-in-out;
     display:block;
     /*transform: translateY(0%);*/
 }
 
 #linklist a {
-    color: #dafaa5;
+    color: black;
     font-family: 'Open sans';
     text-decoration: none;
     display: block;
-    padding: 20px 0px;
+    padding: 20px;
 }
 #linklist a:hover {
-    color: #574525;
+    color: #76799a;
 }
 /*** social links logo **/
 .sociallinks-logo {
-    width: 50px;
+    padding: 0%;
+    margin: 0%;
 }
-.church-logo {
-    border-radius: 50%;
+hr {
+    background-color:rgb(95, 91, 91);
+    padding-top: 1px;
 }
+
+
+
 /*** footer style ***/
 footer {
     background-color: #76799a;
@@ -116,21 +123,63 @@ footer p {
 .start-footer {
     display: flex;
     justify-content: space-around;
+    padding-top: 50px;
 }
 .start-footer li {
     list-style: none;
     font-family: 'Open Sans';
     margin: 15px 0px;
+    color: #dafaa5;
 }
 .start-footer a {
     text-decoration: none;
+    color: #dafaa5;
 }
 .logo-footer {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+.start-footer a:hover {
+    color: black;
+}
 
+
+
+/*** footer small view ***/
+@media only screen and (max-width:513px) {
+    .start-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .start-footer h4 {
+        font-size: 1.1em;
+    }
+    .start-footer h5 {
+        font-size: 1.2em;
+        margin-bottom: 50px;
+    }
+    .start-footer li {
+        font-size: .9em;
+    }
+    #linklist a:hover {
+        color: white;
+        border-left: 3px solid white;
+        transition: 500ms ease-in-out;
+    }
+    .active a {
+        border-left: 3px solid white;
+        transition: 500ms ease-in-out;
+    }
+}
+
+
+/*** active links ***/
+
+.active a {
+    color: white!important;
+}
 
 
 /**Tablet Screens**/
@@ -145,11 +194,13 @@ footer p {
         transform: translate(0,0);
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        margin: 0px 20px;
+        align-items: baseline;
+        padding: 0px 10px;
+        background-color: white;
+        box-shadow: 1px 1px 1px 1px grey;
     }
     #linklist a {
-        padding: 0px;
+        padding: 10px;
     }
     .logotitle {
         justify-content: center!important;
@@ -159,6 +210,16 @@ footer p {
     }
     .logo-footer{
         flex-direction: row;
+    }
+    .active a {
+        border-bottom: 3px solid #76799a;
+    }
+    hr {
+        background-color:black;
+        padding: 5px 0px;
+    }
+    .active a {
+        color: #76799a!important;
     }
     
 
@@ -175,7 +236,18 @@ footer p {
         justify-content: space-around;
         padding: 20px;
     }
+    #linklist, #linklist.open {
+        background-color: #76799a;
+        box-shadow: none;
+    }
     h1 {
         font-size: 2em;
+    }
+    #linklist a:hover {
+        color: #dafaa5;
+    }
+    .active a {
+        border-bottom: 3px solid #574525;
+        color: white!important;
     }
 }

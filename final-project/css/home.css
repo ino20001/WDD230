@@ -1,0 +1,30 @@
+/***call to action**/
+.call-to-action {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/jan-canty-TSxO6V1R9B0-unsplash.webp);
+    padding: 150px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   text-align: center;
+}
+.call-to-action h1 {
+    color: white;
+    font-size: 3.5em;
+    margin: 10px;
+}
+.call-to-action button {
+    background-color: #76799a;
+    padding: 15px;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.call-to-action button:hover {
+    background-color: white;
+    color: #76799a;
+    text-decoration: underline;
+    transform: scale(1.2,1.2);
+}
