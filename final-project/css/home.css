@@ -1,7 +1,7 @@
 /***call to action**/
 .call-to-action {
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/jan-canty-TSxO6V1R9B0-unsplash.webp);
-    padding: 150px;
+    padding: 100px;
     background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -9,22 +9,54 @@
    text-align: center;
 }
 .call-to-action h1 {
-    color: white;
+    color: #ededed;
     font-size: 3.5em;
     margin: 10px;
 }
 .call-to-action button {
-    background-color: #76799a;
+    background-color: #ededed;
     padding: 15px;
-    color: white;
+    color: black;
     font-family: "Open Sans";
-    font-size: 1.5em;
-    border-radius: 5px;
+    font-size: 1.2em;
+    border-radius: 3px;
     cursor: pointer;
 }
 .call-to-action button:hover {
-    background-color: white;
     color: #76799a;
     text-decoration: underline;
-    transform: scale(1.2,1.2);
+    transform: scale(1.1,1.1);
 }
+
+
+/** only specific small page **/
+@media only screen and (max-width:513px) {
+    .call-to-action h1 {
+        font-size: 1.8em;
+    }
+    .call-to-action {
+        padding: 50px;
+    }
+    .call-to-action button {
+        transform: scale(.8,.8);
+    }
+    .call-to-action button:hover {
+        transform: scale(1, 1);
+    }
+}
+
+
+
+/*** table view ***/
+@media only screen and (min-width:32rem) {
+
+
+} 
+
+
+
+/*** web view ***/
+@media only screen and (min-width:64rem) {
+
+    
+} 

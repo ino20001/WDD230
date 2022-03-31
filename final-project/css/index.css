@@ -24,9 +24,8 @@ h5 {
     justify-content: space-between!important;
 }
 header {
-    background-color: #76799a;
+    background-color: #ebebeb;
 }
-
 
 /** hambttn **/
 #hambttn {
@@ -37,7 +36,7 @@ header {
     
 }
 .bar1, .bar2, .bar3 {
-    background-color: white;
+    background-color: #574525;
     width: 30px;
     height: 4px;
     transition: 0.5s;
@@ -109,7 +108,7 @@ hr {
 
 /*** footer style ***/
 footer {
-    background-color: #76799a;
+    background-color: #ebebeb;
 }
 footer p {
     font-family: 'open sans';
@@ -123,17 +122,17 @@ footer p {
 .start-footer {
     display: flex;
     justify-content: space-around;
-    padding-top: 50px;
+    padding: 30px 0px;
 }
 .start-footer li {
     list-style: none;
     font-family: 'Open Sans';
     margin: 15px 0px;
-    color: #dafaa5;
+    color: #76799a;
 }
 .start-footer a {
     text-decoration: none;
-    color: #dafaa5;
+    color: #76799a;
 }
 .logo-footer {
     display: flex;
@@ -143,7 +142,9 @@ footer p {
 .start-footer a:hover {
     color: black;
 }
-
+.start-footer h4 {
+    color: #574525;
+}
 
 
 /*** footer small view ***/
@@ -155,10 +156,11 @@ footer p {
     }
     .start-footer h4 {
         font-size: 1.1em;
+        margin-top: 20px;
     }
     .start-footer h5 {
         font-size: 1.2em;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .start-footer li {
         font-size: .9em;
@@ -212,14 +214,14 @@ footer p {
         flex-direction: row;
     }
     .active a {
-        border-bottom: 3px solid #76799a;
+        border-bottom: 3px solid #574525;
     }
     hr {
         background-color:black;
         padding: 5px 0px;
     }
     .active a {
-        color: #76799a!important;
+        color: #574525!important;
     }
     
 
@@ -237,17 +239,17 @@ footer p {
         padding: 20px;
     }
     #linklist, #linklist.open {
-        background-color: #76799a;
+        background-color: #ebebeb;
         box-shadow: none;
     }
     h1 {
         font-size: 2em;
     }
     #linklist a:hover {
-        color: #dafaa5;
+        color: #574525;
     }
     .active a {
         border-bottom: 3px solid #574525;
-        color: white!important;
+        color: #574525!important;
     }
 }
