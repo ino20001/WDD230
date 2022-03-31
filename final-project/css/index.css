@@ -52,7 +52,7 @@ header {
     background-color: black;
 }
 .rotate-icon .bar2 {
-    opacity: 0;
+    transform: translateX(500%);
 }
 .rotate-icon .bar3 {
     -webkit-transform: rotate(42deg) translate(-9px, -8px);
@@ -73,15 +73,12 @@ header {
 
 /** linklist **/
 #linklist {
-    background-color: #76799a;
     list-style: none;
-    /*transform: translateY(-150%);*/
-    display: none;
+    transform: translateX(100%);
     
 }
 #linklist.open {
-    display:block;
-    /*transform: translateY(0%);*/
+    transform: translateX(0%);
 }
 
 #linklist a {
@@ -147,7 +144,7 @@ footer p {
 }
 
 
-/*** footer small view ***/
+/*** special small view ***/
 @media only screen and (max-width:513px) {
     .start-footer {
         flex-direction: column;
@@ -174,6 +171,12 @@ footer p {
         border-left: 3px solid white;
         transition: 500ms ease-in-out;
     }
+    #linklist.open, #linklist {
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        background-color: #76799ae8;
+      }
 }
 
 
