@@ -52,7 +52,7 @@ header {
     background-color: black;
 }
 .rotate-icon .bar2 {
-    transform: translateX(500%);
+    transform: scale(0,0);
 }
 .rotate-icon .bar3 {
     -webkit-transform: rotate(42deg) translate(-9px, -8px);
@@ -75,10 +75,11 @@ header {
 #linklist {
     list-style: none;
     transform: translateX(100%);
+    transform: scale(1,1);
     
 }
 #linklist.open {
-    transform: translateX(0%);
+    transform: scale(0,0);
 }
 
 #linklist a {
