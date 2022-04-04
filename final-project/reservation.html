@@ -7,9 +7,9 @@
     <link rel="icon" href="assets/church.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reservation.css">
     <script src="js/menu.js"></script>
-    <script defer src="js/dates.js"></script>
+    <script defer src="js/latestmodif.js"></script>
     <title>Reservation | Temple Inn & Suites</title>
 </head>
 <body>
@@ -39,6 +39,53 @@
         
     </header>
     <main>
+        <section>
+            <form action="thankyou.html" autocomplete="off" method="GET">
+                <h4>Reservation form</h4>
+                <fieldset class="fs-1">
+                    <legend>Types of Reservation</legend>
+                        <label><input checked="checked" name="level" type="radio" value="Gold" /> Normal Reservation </label><br> 
+                        <label><input name="level" type="radio" value="Silver" />  Special Reservation </label><br>
+                </fieldset>
+                <fieldset class="fs-2">
+                    <legend>Basic information</legend>
+                    <label>First Name<Span class="red-impo">*<br /> 
+                    <input name="ftname" type="text"  required /></label><br>
+                    <label>Last Name<Span class="red-impo">*<br />
+                    <input name="lname" type="text"  required/></label><br>
+                    <label>Location:<br />
+                    <input name="positionname" type="text" /></label><br>
+                </fieldset>
+                <fieldset class="fs-3">
+                    <legend>Contact information and other details</legend>
+                    <label>Email<Span class="red-impo">*<br />
+                        <input name="email" type="email" placeholder="example@info.com"  required/>
+                    </label><br>
+                    <label>Contact number<Span class="red-impo">*<br />
+                    <input name="contact" type="tel"  required/></label><br>
+                    <label>Date<span class="red-impo">*</span><br>
+                        <input type="date" name="dateofarrival" id="dar" required> to
+                        <input type="date" name="dateofarrival" id="dar" required><br>
+                    </label>
+                    <label>Types of room<span class="red-impo">*</span>
+                        <br><select required>
+                            <option selected="selected" value="1">Single<i>(solo)</i></option>
+                            <option value="2">Double</option>
+                            <option value="3">Family</option>
+                            <option value="4">Deluxe</option>
+                            <option value="5">Dorm</option>
+                            <option value="6">Function</option>
+                        </select>
+                    </label><br>
+                    <label>Additonal Request:<br />
+                    <textarea name="businessname" type="text" rows="4"></textarea></label><br>
+                </fieldset>
+                <fieldset class="fs-4">
+                    <label><input class="checkbox" name="checkbox" type="checkbox" value="yes" required /> <Span class="red-impo">*</Span>I confirm that the information above is true.<Span class="red-impo">*</label><br /> 
+                </fieldset>
+                <button type="submit" value="Submit" class="submitBtn">Submit my Reservation</button>
+            </form>
+        </section>
 
     </main>
     <footer>
@@ -51,7 +98,7 @@
             <ul>
                 <li><a href="https://www.churchofjesuschrist.org/temples/map?lang=eng">Nearby Temple</a></li>
                 <li><a href="https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng">Temple Schedules</a></li>
-                <li><a href="https://www.churchofjesuschrist.org/temples/map?lang=eng">Location</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/temples/map?lang=eng">Social Media</a></li>
             </ul>
         </div>
         <div class="contact-links">
@@ -59,12 +106,12 @@
             <ul>
                 <li>Tel: (62) 5568-6313</li>
                 <li>email: pacificinn@info.com</li>
-                <li><a href="https://goo.gl/maps/2teh5TNhJ4LyPpcHA"> Location &#128205;</a></li>
+                <li><a href="https://goo.gl/maps/qfZFkCGSZrhL91ZQ6">&#128205; 4800 Montgomery Ln #300,<br>Bethesda, MD 20814</a></li>
             </ul>
         </div>
     </div>
         <div class="end-footer">
-        <p>&copy; 2022 Pacific Temple Inn and Suites   |   <b>Jovincent Inoc</b>  |   Manila, Philippines  |   <span id="latestDate"></span></p>
+        <p>&copy; 2022 Pacific Temple Inn and Suites   |   <b>Jovincent Inoc</b>  |   Manila, Philippines  |   <span id="latestDate"></span></span></p>
     </div>
     </footer>
 </body>

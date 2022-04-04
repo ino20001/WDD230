@@ -1,0 +1,92 @@
+.red-impo {
+    color: red;
+}
+label {
+    font-family: "Open sans";
+    margin: 10px;
+}
+legend {
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+fieldset {
+    margin: 1em;
+    padding: 1em;
+    border-radius: 3px;
+}
+form{
+    max-width: 1000px;
+    margin: auto;
+}
+section {
+    background-color: #bedbed;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+.fs-2 input, .fs-3 input {
+    width: 50%;
+    height: 2em;
+    margin: 5px 5px 25px 5px;
+    padding: 10px;
+    border-radius: 3px;
+ }
+ .submitBtn {
+     padding: 10px;
+     font-family: "Open Sans";
+     margin: 50px 0px 50px 15px;
+     cursor: pointer;
+     background-color: #574525;
+     color: white;
+     border-radius: 2px;
+ }
+ .submitBtn:hover {
+     background-color: #bedbed;
+     color: #574525;
+ }
+ .fs-3 select {
+     padding:10px;
+     border-radius: 3px;
+     font-family: "Open Sans";
+     margin: 10px 5px 15px 5px;
+ }
+ .fs-3 textarea {
+    margin: 10px 5px 15px 5px;
+    border-radius: 3px;
+    width: 55%;
+ }
+ .fs-1 input {
+     margin-bottom: 10px;
+ }
+ 
+
+
+
+/***special small screens****/
+@media only screen and (max-width:513px){
+    section h4 {
+        text-align: center;
+    }
+    section {
+        margin: 10px;
+    }
+    section h4 {
+        padding: 25px 0px 10px;
+    }
+}
+
+/****tablet view******/
+@media only screen and (min-width:32rem){
+ section h4 {
+     padding-inline-start: 15px;
+     padding-top: 40px;
+     font-size: 1.5em;
+ }
+ section {
+     margin: 50px 70px;
+ }
+}
+
+/*****web view****/
+@media only screen and (min-width:64rem){
+
+}
