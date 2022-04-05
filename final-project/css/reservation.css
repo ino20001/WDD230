@@ -16,7 +16,7 @@ fieldset {
 }
 form{
     max-width: 1000px;
-    margin: auto;
+    margin: 30px;
 }
 section {
     background-color: #bedbed;
@@ -57,7 +57,12 @@ section {
  .fs-1 input {
      margin-bottom: 10px;
  }
- 
+ .labelinfo{
+     font-size: .8em;
+ }
+ textarea{
+     font-family: 'Open sans';
+ }
 
 
 
@@ -82,7 +87,7 @@ section {
      font-size: 1.5em;
  }
  section {
-     margin: 50px 70px;
+     margin: 100px 70px;
  }
 }
 

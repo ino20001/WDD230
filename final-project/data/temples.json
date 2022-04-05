@@ -1,0 +1,54 @@
+{
+    "Temples": [
+      {
+        "templename": "Adelaide Australia Temple",
+        "address": "53-59 Lower Portrush Rd Marden SA 5070 Australia",
+        "Tel": "(61) 8-8363-8000",
+        "email": "ADELA-OFF@ChurchofJesusChrist.org",
+        "schedapplink": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "link": "https://www.churchofjesuschrist.org/temples/details/adelaide-australia-temple?lang=eng",
+        "services": [ "No clothing rental available ", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
+        "closuresched": [ "Saturday, 9 April 2022", "Saturday, 16 April 2022", "Monday, 18 April 2022 - Monday, 25 April 2022", "Saturday, 8 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "order": 1,
+        "imageurl": "https://assets.ldscdn.org/e9/bd/e9bd6df8906a98026e04cd747c4b5c9d78abb7e4/adelaide_australia_temple.jpeg"
+      },
+      {
+        "templename": "Manila Philippines Temple",
+        "address": "13 Temple Drive corner Whiteplains Avenue Greenmeadows Subdivision, UGONG NORTE, Quezon City 1110 Metro Manila Philippines",
+        "Tel": "(63) 2-8635-9111",
+        "email": "MANIL-OFF@ChurchofJesusChrist.org",
+        "schedapplink": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "link": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+        "services": [ "Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "closuresched": [ "Saturday, 9 April 2022", "Monday, 1 August 2022 - Monday, 15 August 2022", "Saturday, 8 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "order": 2,
+        "imageurl": "https://assets.ldscdn.org/c6/4a/c64a6408b3b68c7873eaf06352c172a9c5eb5586/manila_philippines_temple_lds.jpeg"
+      },
+      {
+        "templename": "Cebu City Philippines Temple",
+        "address": "The Church of Jesus Christ of Latter-day Saints Gorordo Avenue, Barangay Lahug, Cebu City, 6000 Cebu, Philippines",
+        "Tel": "(63) 32-230-1207",
+        "email": "CEBU-OFF@ChurchofJesusChrist.org",
+        "schedapplink": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "link": "https://www.churchofjesuschrist.org/temples/details/cebu-city-philippines-temple?lang=eng",
+        "services": [ "Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "closuresched": ["Monday, 15 August 2022 - Monday, 24 August 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "order": 3,
+        "imageurl": "https://assets.ldscdn.org/2b/73/2b73e4387ec8b228675cb8291c72d60b92b71096/cebu_philippines_temple_sunset.jpeg"
+      },
+      {
+        "templename": "Laie Hawaii Temple",
+        "address": "55-600 Naniloa Loop Laie HI 96762-2202 United States",
+        "Tel": "(1) 808-293-2427",
+        "email": "LAIE-OFF@ChurchofJesusChrist.org",
+        "schedapplink": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "link": "https://www.churchofjesuschrist.org/temples/details/laie-hawaii-temple?lang=eng",
+        "services": [ "Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+        "closuresched": ["Friday, 30 September 2022 (Limited Operations)", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Sunday, 1 January 2023"],
+        "order": 4,
+        "imageurl": "https://assets.ldscdn.org/58/36/5836fd79f0f92e33bfe124e2f86ff43a382af1be/laie_hawaii_temple_lds.jpg"
+      }
+      
+      
+    ]
+  }

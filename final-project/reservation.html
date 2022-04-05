@@ -49,25 +49,25 @@
                 </fieldset>
                 <fieldset class="fs-2">
                     <legend>Basic information</legend>
-                    <label>First Name<Span class="red-impo">*<br /> 
+                    <label><span class="labelinfo"> First Name</span><Span class="red-impo">*<br /> 
                     <input name="ftname" type="text"  required /></label><br>
-                    <label>Last Name<Span class="red-impo">*<br />
+                    <label><span class="labelinfo"> Last Name</span><Span class="red-impo">*<br />
                     <input name="lname" type="text"  required/></label><br>
-                    <label>Location:<br />
-                    <input name="positionname" type="text" /></label><br>
+                    <label><span class="labelinfo"> Your Destination <span class="red-impo">*</span></span><br/>
+                    <input name="Destination" type="text" /></label><br>
                 </fieldset>
                 <fieldset class="fs-3">
                     <legend>Contact information and other details</legend>
-                    <label>Email<Span class="red-impo">*<br />
+                    <label><span class="labelinfo">Email</span><Span class="red-impo">*<br />
                         <input name="email" type="email" placeholder="example@info.com"  required/>
                     </label><br>
-                    <label>Contact number<Span class="red-impo">*<br />
+                    <label><span class="labelinfo">Contact number</span><Span class="red-impo">*<br />
                     <input name="contact" type="tel"  required/></label><br>
-                    <label>Date<span class="red-impo">*</span><br>
-                        <input type="date" name="dateofarrival" id="dar" required> to
+                    <label><span class="labelinfo">Check in date</span><span class="red-impo">*</span><br>
+                        <input type="date" name="dateofarrival" id="dar" required><span class="labelinfo">to</span>
                         <input type="date" name="dateofarrival" id="dar" required><br>
                     </label>
-                    <label>Types of room<span class="red-impo">*</span>
+                    <label><span class="labelinfo">Types of room</span><span class="red-impo">*</span>
                         <br><select required>
                             <option selected="selected" value="1">Single<i>(solo)</i></option>
                             <option value="2">Double</option>
@@ -77,11 +77,11 @@
                             <option value="6">Function</option>
                         </select>
                     </label><br>
-                    <label>Additonal Request:<br />
-                    <textarea name="businessname" type="text" rows="4"></textarea></label><br>
+                    <label><span class="labelinfo">Additonal Request:</span><br />
+                    <textarea name="businessname" type="text" rows="4" placeholder="Do you have any special special request for accommodations/comments?"></textarea></label><br>
                 </fieldset>
                 <fieldset class="fs-4">
-                    <label><input class="checkbox" name="checkbox" type="checkbox" value="yes" required /> <Span class="red-impo">*</Span>I confirm that the information above is true.<Span class="red-impo">*</label><br /> 
+                    <label><input class="checkbox" name="checkbox" type="checkbox" value="yes" required /> <Span class="red-impo">*</Span> <i class="labelinfo">I confirm that the information above is true.</i><Span class="red-impo">*</label><br /> 
                 </fieldset>
                 <button type="submit" value="Submit" class="submitBtn">Submit my Reservation</button>
             </form>
