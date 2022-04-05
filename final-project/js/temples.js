@@ -20,20 +20,21 @@ fetch(requestURL)
         let services = document.createElement("p")
         let links = document.createElement("a");
         let schedlinks = document.createElement("a");
+        let button = document.createElement("button");
+        let lbutton = document.createElement("button");
 
         portrait.setAttribute('scr', temples.imageurl);
-        portrait.setAttribute('loading', 'lazy');
         portrait.setAttribute('alt', 'Photo of ' + temples.templename);
         h2.textContent = temples.templename;
         address.innerHTML = `${temples.address}`
         Tel.innerHTML = `Telephone: ${temples.Tel}`
-        links.innerHTML = `${temples.link}`
+        lbutton.innerHTML = `More info`
         links.setAttribute ('href', temples.link);
+        schedlinks.setAttribute ('href', temples.schedapplink)
         address.innerHTML = `${temples.address}`
         email.innerHTML = `Email: ${temples.email}`
-        schedlinks.innerHTML = `${temples.schedapplink}`
-        schedlinks.setAttribute = ('href', temples.schedapplink);
-        services.innerHTML = `${temples.services}`
+        button.innerHTML = `Schedule An Appointment`
+        services.innerHTML = `Service: ${temples.services}`
 
         card.appendChild(portrait);
         card.appendChild(h2);
@@ -41,6 +42,10 @@ fetch(requestURL)
         card.appendChild(Tel);
         card.appendChild(email);
         card.appendChild(services);
+        card.appendChild(links);
+        links.appendChild(lbutton);
+        card.appendChild(schedlinks);
+        schedlinks.appendChild(button);
         card.appendChild(schedlinks);
         templelist.appendChild(card);
     }
