@@ -26,7 +26,7 @@ fetch(requestURL)
         portrait.setAttribute('scr', temples.imageurl);
         portrait.setAttribute('alt', 'Photo of ' + temples.templename);
         h2.textContent = temples.templename;
-        address.innerHTML = `${temples.address}`
+        address.innerHTML = `Address: ${temples.address}`
         Tel.innerHTML = `Telephone: ${temples.Tel}`
         lbutton.innerHTML = `More info`
         links.setAttribute ('href', temples.link);
@@ -34,7 +34,7 @@ fetch(requestURL)
         address.innerHTML = `${temples.address}`
         email.innerHTML = `Email: ${temples.email}`
         button.innerHTML = `Schedule An Appointment`
-        services.innerHTML = `Service: ${temples.services}`
+        services.innerHTML = `Services: ${temples.services}`
 
         card.appendChild(portrait);
         card.appendChild(h2);

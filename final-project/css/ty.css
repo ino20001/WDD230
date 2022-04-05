@@ -6,4 +6,6 @@ p {
 }
 section {
     margin: 50px;
+    background-color: #bedbedad;
+    padding: 30px;
 }

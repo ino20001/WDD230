@@ -1,9 +1,30 @@
 .templeList {
-    margin: 100px 70px;
-    background-color: #bedbed;
-    padding: 50px;
+    margin: 20px 10px;
+    background-color: #bedbedad;
+    padding: 20px;
 }
 section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+button {
+    cursor: pointer;
+    font-family: 'Open sans' sans-serif;
     padding: 10px;
-    margin: 30px;
+    margin: 20px 10px 10px 0px;
+    background-color: white;
+    border: 2px solid #574525;
+    color: #574525;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: #574525;
+    color: white;
+}
+p {
+    margin-top: 2px;
+}
+h2 {
+    margin-bottom: 15px;
 }
