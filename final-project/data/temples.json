@@ -10,7 +10,7 @@
         "services": [ "No clothing rental available ", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
         "closuresched": [ "Saturday, 9 April 2022", "Saturday, 16 April 2022", "Monday, 18 April 2022 - Monday, 25 April 2022", "Saturday, 8 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
         "order": 1,
-        "imageurl": "../assets/adelaide_australia_temple.jpeg"
+        "imageurl": "./assets/adelaide_australia_temple.jpeg"
       },
       {
         "templename": "Manila Philippines Temple",
@@ -34,7 +34,7 @@
         "services": [ "Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "closuresched": ["Monday, 15 August 2022 - Monday, 24 August 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
         "order": 3,
-        "imageurl": "./final-project/assets/cebu_philippines_temple_sunset.jpeg"
+        "imageurl": "./assets/cebu_philippines_temple_sunset.jpeg"
       },
       {
         "templename": "Laie Hawaii Temple",
@@ -46,7 +46,7 @@
         "services": [ "Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
         "closuresched": ["Friday, 30 September 2022 (Limited Operations)", "Saturday, 1 October 2022", "Thursday, 24 November 2022", "Friday, 23 December 2022 (Limited Operations)", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Sunday, 1 January 2023"],
         "order": 4,
-        "imageurl": "../final-project/assets/laie_hawaii_temple_lds.jpg"
+        "imageurl": "./assets/laie_hawaii_temple_lds.jpg"
       }
     ]
   }
