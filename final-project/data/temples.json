@@ -10,7 +10,7 @@
         "services": [ "No clothing rental available ", "No cafeteria available", "No patron housing available", "No distribution center nearby"],
         "closuresched": [ "Saturday, 9 April 2022", "Saturday, 16 April 2022", "Monday, 18 April 2022 - Monday, 25 April 2022", "Saturday, 8 October 2022", "Monday, 10 October 2022 - Monday, 24 October 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
         "order": 1,
-        "imageurl": "https://raw.githubusercontent.com/ino20001/wdd230/main/final-project/assets/adelaide_australia_temple.jpeg"
+        "imageurl": "./assets/adelaide_australia_temple.jpeg"
       },
       {
         "templename": "Manila Philippines Temple",

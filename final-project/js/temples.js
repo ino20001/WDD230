@@ -23,9 +23,12 @@ fetch(requestURL)
         let button = document.createElement("button");
         let lbutton = document.createElement("button");
         let likebutton = document.createElement("button");
-        let numberoflikes = document.createElement("p");
+        let numberoflikes = document.createElement("span");
+        let para = document.createElement('article');
+        let interface = document.createElement("div");
+        let data =document.createElement("div")
 
-        portrait.setAttribute('scr', temples.imageurl);
+        portrait.setAttribute('src', temples.imageurl);
         portrait.setAttribute('alt', 'Photo of ' + temples.templename);
         h2.textContent = temples.templename;
         address.innerHTML = `${temples.address}`
@@ -46,17 +49,20 @@ fetch(requestURL)
 
 
         card.appendChild(portrait);
-        card.appendChild(h2);
-        card.appendChild(address);
-        card.appendChild(Tel);
-        card.appendChild(email);
-        card.appendChild(services);
-        card.appendChild(links);
+        card.appendChild(para);
+        para.appendChild(interface);
+        para.appendChild(data);
+        data.appendChild(h2);
+        data.appendChild(address);
+        data.appendChild(Tel);
+        data.appendChild(email);
+        data.appendChild(services);
+        data.appendChild(links);
         links.appendChild(lbutton);
-        card.appendChild(schedlinks);
+        data.appendChild(schedlinks);
         schedlinks.appendChild(button);
-        card.appendChild(schedlinks);
-        card.appendChild(likebutton);
-        card.appendChild(numberoflikes)
+        data.appendChild(schedlinks);
+        interface.appendChild(likebutton);
+        interface.appendChild(numberoflikes)
         templelist.appendChild(card);
     }

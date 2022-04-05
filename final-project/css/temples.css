@@ -2,11 +2,16 @@
     margin: 20px 10px;
     background-color: #bedbedad;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 section {
-    padding: 20px;
     margin: 10px;
     background-color: white;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
 }
 button {
     cursor: pointer;
@@ -21,6 +26,8 @@ button {
 button:hover {
     background-color: #574525;
     color: white;
+    padding: 10px 50px;
+    
 }
 p {
     margin-top: 2px;
@@ -31,7 +38,42 @@ h2 {
 .temaddress {
     margin: 15px 0px;
 }
-.like {
-    display: block;
+section img {
+    width: 100%;
+}
+section:hover {
+    transform: scale(1.1,1.1);
+}
+span.root {
+    font-family: 'Open sans';
+    margin: 10px;
+}
+section article {
+    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
 
+}
+article div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    order: -2;
+}
+
+@media only screen and (min-width:32rem){
+    section {
+        margin: 10px;
+        max-width: 400px;
+     
+    }
+    
+}
+@media only screen and (min-width:64rem){
+    section {
+        margin: 10px;
+        max-width: 300px;
+     
+    }
 }
