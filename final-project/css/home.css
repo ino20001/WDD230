@@ -28,6 +28,89 @@
     transform: scale(1.1,1.1);
 }
 
+/****main page****/
+article {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+section {
+    background-color: #bedbedad;
+    margin: 10px;
+    padding: 10px
+}
+.adela {
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/final-project/assets/adelaide_australia_temple.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+   background-position: center center;
+   padding: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cebu {
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/final-project/assets/cebu_philippines_temple_sunset.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+   background-position: center center;
+   padding: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.manila {
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/final-project/assets/manila_philippines_temple_lds.jpeg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+   background-position: center center;
+   padding: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.laie {
+    background: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.39)), url(/final-project/assets/laie_hawaii_temple_lds.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment:scroll;
+   background-position: center center;
+   padding: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.templesList article a {
+    color: #ededed;
+    font-family: 'Open sans';
+    border: 2px solid #ededed;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.templesList article a:hover {
+    background-color: #ededed;
+    color: black;
+    padding: 5px 10px;
+}
+.templesList h4 {
+    margin-bottom: 10px;
+    color: white;
+}
+.templesList p {
+    margin-bottom: 15px;
+    color: white;
+}
+.templesList a h3 {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 2em;
+}
+.templesList a h3:hover {
+    text-decoration: underline;
+}
+a  {
+    text-decoration: none;
+}
+.degrees span {
+    display: flex;
+}
 
 /** only specific small page **/
 @media only screen and (max-width:513px) {
@@ -57,6 +140,11 @@
 
 /*** web view ***/
 @media only screen and (min-width:64rem) {
-
-    
+    .main-content {
+        display: grid;
+        grid-template-columns: auto 500px;
+        width: 70%;
+        justify-content: center;
+        margin: 80px auto;
+    }
 } 

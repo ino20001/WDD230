@@ -30,6 +30,7 @@ fetch(requestURL)
 
         portrait.setAttribute('src', temples.imageurl);
         portrait.setAttribute('alt', 'Photo of ' + temples.templename);
+        portrait.setAttribute('loading', `lazy`);
         h2.textContent = temples.templename;
         address.innerHTML = `${temples.address}`
         address.setAttribute ('class', `temaddress`);
