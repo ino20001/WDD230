@@ -119,6 +119,7 @@ a  {
     background-color: white;
     justify-content: center;
     align-items: center;
+    margin: 0px 10px 10px 10px;
 }
 .alphabets ul, li {
     list-style: none;
@@ -157,6 +158,11 @@ body > main > div.main-content > section:nth-child(1) > div > article:nth-child(
 .contactadd li {
     margin-bottom: 15px;
 }
+.headw {
+    background-color: #bebebe;
+    padding: 8px;
+    margin: 0 10px;
+}
 
 /** only specific small page **/
 @media only screen and (max-width:513px) {
@@ -186,6 +192,9 @@ body > main > div.main-content > section:nth-child(1) > div > article:nth-child(
         justify-content: space-between;
         flex-direction: row;
         padding: 2px;
+    }
+    .templecard:hover {
+        padding-bottom: 50%;
     }
 
 

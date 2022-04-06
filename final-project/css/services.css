@@ -15,6 +15,9 @@
     background-color: white;
     box-shadow: 1px 1px 1px 1px rgb(53, 53, 53);
     padding: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
 }
 .subpages ul {
     display: flex;
