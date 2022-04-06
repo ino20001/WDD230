@@ -9,7 +9,7 @@ font-family: 'Roboto Slab', serif;*/
     padding: 0px;
     transition: 200ms ease-in-out;
 }
-p {
+p, li {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -89,7 +89,6 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
 
 #linklist a {
     color: black;
-    font-family: 'Open sans';
     text-decoration: none;
     display: block;
     padding: 20px;

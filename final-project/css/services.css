@@ -1,0 +1,75 @@
+.servicehead {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/final-project/assets/andrew-coop-ju-oKQGkGF0-unsplash.webp);
+    padding: 100px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   text-align: center;
+}
+.servicehead h2 {
+    font-size: 3em;
+    color: white;
+}
+.subpages {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(53, 53, 53);
+    padding: 10px;
+}
+.subpages ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subpages ul li a {
+    padding: 10px; 
+    background-color: white;
+}
+.subpages li {
+    list-style: none;
+}
+.subpages ul li a:hover {
+    color: #574525;
+}
+.subpages a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    padding: 50px;
+    background-color: #bedbedad;
+    margin: 20px;
+}
+.content p {
+    margin-bottom: 10px;
+}
+.content ul {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.content li {
+    margin-bottom: 5px;
+}
+.subpages ul .subactive a {
+    background-color: #bedbed;
+    color: #574525;
+    z-index: 100;
+}
+
+
+@media only screen and (max-width:513px) {
+
+}
+
+
+@media only screen and (min-width:32rem) {
+    .content {
+        display: flex;
+    }
+}
+
+
+@media only screen and (min-width:64rem) {
+
+}
