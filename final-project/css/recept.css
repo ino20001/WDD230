@@ -1,0 +1,62 @@
+.outdoor, .indoor {
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto;
+}
+.photosre {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/ralph-ravi-kayden-zSG-kd-L6vw-unsplash.webp);
+    padding: 100px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   margin-bottom: 10px;
+}
+.foodre {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1623475173140-ad2f0369ca92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80);
+    padding: 100px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   margin: 10px 0px;
+
+}
+.door:hover {
+    transform: scale(1.1,1.1);
+}
+.content img {
+    width: 100%;
+
+}
+.content {
+    margin: 100px;
+    flex-direction: column;
+}
+.descre {
+    padding: 20px;
+}
+.content button {
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid #574525;
+    cursor: pointer;
+    color: #574525;
+}
+.content button:hover {
+    background-color: #574525;
+    color: white;
+}
+.wedsec{
+    display: flex;
+}
+.foodsec {
+    margin: 50px 0px;
+    
+}
+@media only screen and (max-width:513px) {
+    .wedsec {
+        flex-direction: column;
+    }
+}

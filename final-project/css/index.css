@@ -9,7 +9,7 @@ font-family: 'Roboto Slab', serif;*/
     padding: 0px;
     transition: 200ms ease-in-out;
 }
-p, li {
+p, li, a {
     font-family: 'Open Sans', sans-serif;
 }
 
