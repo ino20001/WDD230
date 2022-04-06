@@ -88,11 +88,11 @@ section {
     color: black;
     padding: 5px 10px;
 }
-.templesList h4 {
+.templesList .templecard h4 {
     margin-bottom: 10px;
     color: white;
 }
-.templesList p {
+.templesList .templecard p {
     margin-bottom: 15px;
     color: white;
 }
@@ -179,6 +179,38 @@ body > main > div.main-content > section:nth-child(1) > article > article > h4 {
 }
 a:hover{
     text-decoration: underline;
+}
+
+/**form**/
+form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+}
+form input{
+    width: 94%;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Open sans';
+    margin-bottom: 10px;
+}
+body > main > div.main-content > section.templesList > form > p {
+    margin: 10px 0px;
+}
+form textarea {
+    width: 85%;
+}
+form button {
+    padding: 15px;
+    border: 2px solid #574525;
+    cursor: pointer;
+    color: #574525;
+    width: 100%;
+}
+form button:hover {
+    background-color: #574525;
+    color: white;
 }
 
 

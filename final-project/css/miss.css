@@ -1,0 +1,66 @@
+.suitesban {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://images.unsplash.com/photo-1582582494705-f8ce0b0c24f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
+    padding: 100px;
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center center;
+   margin-bottom: 10px;
+}
+.content {
+    flex-direction: column;
+}
+.card {
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.card:hover {
+    transform: scale(1.1,1.1);
+}
+.cards .card img {
+    width: 100%;
+}
+.cardcontent {
+    padding: 20px;
+}
+.content button {
+    padding: 20px;
+    margin: 20px 20px 20px 0px;
+    border: 2px solid #574525;
+    cursor: pointer;
+    color: #574525;
+}
+.content button:hover {
+    background-color: #574525;
+    color: white;
+}
+/****form***/
+form{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form input{
+    width: 80%;
+    height: 30px;
+    padding: 10px;
+    font-family: 'Open sans';
+    margin-bottom: 10px;
+}
+form p {
+    margin-top: 40px;
+}
+form textarea {
+    width: 85%;
+}
