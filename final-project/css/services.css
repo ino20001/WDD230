@@ -13,7 +13,6 @@
 .subpages {
     background-color: white;
     box-shadow: 1px 1px 1px 1px rgb(53, 53, 53);
-    padding: 10px;
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -23,7 +22,7 @@
     align-items: center;
     justify-content: center;
 }
-.subpages ul li a {
+.subpages ul li {
     padding: 10px; 
     background-color: white;
 }
@@ -50,10 +49,10 @@
     padding: 20px;
     margin-bottom: 50px;
 }
-.content li {
+.content li a {
     margin-bottom: 5px;
 }
-.subpages ul .subactive a {
+.subpages ul .subactive {
     background-color: #bedbed;
     color: #574525;
     z-index: 100;
@@ -64,6 +63,9 @@
     .servicehead h2 {
         font-size: 1em;
     }
+    .subpages ul {
+        display: block;
+    }
 
 }
 
@@ -72,6 +74,7 @@
     .content {
         display: flex;
     }
+    
 
 }
 
