@@ -1,5 +1,5 @@
 .servicehead {
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/final-project/assets/andrew-coop-ju-oKQGkGF0-unsplash.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/andrew-coop-ju-oKQGkGF0-unsplash.webp);
     padding: 100px;
     background-repeat: no-repeat;
    background-size: cover;
@@ -8,7 +8,6 @@
    text-align: center;
 }
 .servicehead h2 {
-    font-size: 3em;
     color: white;
 }
 .subpages {
@@ -62,6 +61,9 @@
 
 
 @media only screen and (max-width:513px) {
+    .servicehead h2 {
+        font-size: 1em;
+    }
 
 }
 
@@ -70,9 +72,13 @@
     .content {
         display: flex;
     }
+
 }
 
 
 @media only screen and (min-width:64rem) {
+    .servicehead h2 {
+        font-size: 2em;
+    }
 
 }
