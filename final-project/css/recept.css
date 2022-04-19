@@ -43,6 +43,7 @@
     border: 2px solid #574525;
     cursor: pointer;
     color: #574525;
+    font-weight: bold;
 }
 .content button:hover {
     background-color: #574525;
@@ -54,6 +55,20 @@
 .foodsec {
     margin: 50px 0px;
     
+}
+.foodsec p {
+    margin: 20px 0px;
+}
+.foodsec h2  {
+    margin-top: 50px;
+}
+.foodbut button {
+    margin-top: 5px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+body > main > div.content > section.foodsec > p:nth-child(6) {
+    margin-bottom: 0px;
 }
 @media only screen and (max-width:513px) {
     .wedsec {
